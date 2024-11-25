@@ -15,6 +15,11 @@ public class LoginController {
     public String showLoginPage() {
         return "login";
     }
+    
+    @GetMapping("/admin/dashboard")
+    public String adminDashboard() {
+        return "dashboard";
+    }
 
     @PostMapping("/authenticate")
     public ModelAndView authenticate(@RequestParam("username") String username,

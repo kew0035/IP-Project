@@ -29,6 +29,14 @@
             <artifactId>tomcat-embed-jasper</artifactId>
             <version>9.0.78</version>
         </dependency>
+        
+         <!-- Spring Data JPA -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-data-jpa</artifactId>
+	        <version>2.7.8</version>
+	    </dependency>
+	
 
         <!-- JSTL for JSP -->
         <dependency>
